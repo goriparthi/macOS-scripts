@@ -27,6 +27,7 @@ brew cask install atom
 brew cask install caffeine
 brew cask install cheatsheet
 brew cask install controlplane
+brew cask install datagrip
 brew cask install filezilla
 brew cask install gimp
 brew cask install gitup
@@ -47,3 +48,4 @@ brew cask install virtualbox
 brew cask install vlc
 brew cask install the-unarchiver
 brew cask install xquartz
+
