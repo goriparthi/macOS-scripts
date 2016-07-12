@@ -1,17 +1,21 @@
 [core]
-  editor = vim
-  excludesfile = /Users/pgoriparthi/.gitignore_global
+    editor = vim
+      excludesfile = /Users/pgoriparthi/.gitignore_global
 [difftool "sourcetree"]
-  cmd = opendiff \"$LOCAL\" \"$REMOTE\"
-  path = 
+    cmd = opendiff \"$LOCAL\" \"$REMOTE\"
+      path = 
 [mergetool "sourcetree"]
-  cmd = /Applications/SourceTree.app/Contents/Resources/opendiff-w.sh \"$LOCAL\" \"$REMOTE\" -ancestor \"$BASE\" -merge \"$MERGED\"
-  trustExitCode = true
+    cmd = /Applications/SourceTree.app/Contents/Resources/opendiff-w.sh \"$LOCAL\" \"$REMOTE\" -ancestor \"$BASE\" -merge \"$MERGED\"
+      trustExitCode = true
 [user]
-  name = Prashanth Goriparthi
-  email = prashanth@wrong.host
+    name = Prashanth Goriparthi
+      email = prashanth@wrong.host
 [web]
-  browser = google-chrome
+    browser = google-chrome
 [color]
-  ui = auto
+    ui = auto
 
+[push]
+	default = simple
+[fetch]
+	prune = true
