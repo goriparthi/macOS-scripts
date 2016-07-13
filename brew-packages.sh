@@ -33,6 +33,7 @@ brew cask install filezilla
 brew cask install gimp
 brew cask install gitup
 brew cask install google-chrome
+brew cask install google-hangouts
 brew cask install handbrake
 brew cask install inkscape
 brew cask install iterm2
