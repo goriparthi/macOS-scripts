@@ -1,0 +1,26 @@
+source /Users/pgoriparthi/.oh-my-git/prompt.sh
+
+export EDITOR=/usr/bin/vim
+export JIRA_USER=
+export JIRA_PASS=
+export ANSIBLE_VAULT_PASSWORD_FILE=
+
+alias c="clear"
+alias ll="ls -lrt"
+alias la="ls -lart"
+alias cd..='cd ../'
+alias ..='cd ../'
+alias ...='cd ../../'
+alias .3='cd ../../../'
+alias .4='cd ../../../../'
+alias .5='cd ../../../../../'
+alias .6='cd ../../../../../../'
+alias sp='source ~/.profile'
+alias gp='git push'
+alias gpu='git push -u'
+eval "$(thefuck --alias fuck)"
+
+jira(){
+    open "https://i3logix.atlassian.net/browse/$1"
+    }
+_byobu_sourced=1 . /usr/local/Cellar/byobu/5.108/bin/byobu-launch 2>/dev/null || true
