@@ -4,6 +4,7 @@
 #
 brew install ansible
 brew install ansiweather
+brew install archey
 brew install byobu
 brew install dos2unix
 brew install git
@@ -47,6 +48,7 @@ brew cask install sourcetree
 brew cask install spectacle
 brew cask install sublime-text
 brew cask install teamviewer
+brew cask install transmission
 brew cask install tunnelblick
 brew cask install vagrant
 brew cask install virtualbox
