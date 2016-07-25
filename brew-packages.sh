@@ -5,7 +5,7 @@
 brew install ansible
 brew install ansiweather
 brew install archey
-brew install byobu
+#brew install byobu
 brew install dos2unix
 brew install git
 brew install htop
@@ -33,11 +33,13 @@ brew cask install datagrip
 brew cask install filezilla
 brew cask install gimp
 brew cask install gitup
+brew cask install go2shell
 brew cask install google-chrome
 brew cask install google-hangouts
 brew cask install handbrake
 brew cask install inkscape
 brew cask install iterm2
+brew cask install itsycal
 brew cask install kdiff3
 brew cask install macdown
 brew cask install macvim
