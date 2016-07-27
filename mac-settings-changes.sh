@@ -10,3 +10,6 @@ defaults write NSGlobalDomain AppleInterfaceStyle Dark; killall Dock
 defaults -currentHost write com.apple.screensaver askForPasswordDelay -int 10
 # Allow app installation from any source
 sudo spctl --master-disable
+#Change location of screenshots
+defaults write com.apple.screencapture location ~/Desktop/ScreenShots
+killall SystemUIServer

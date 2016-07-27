@@ -24,6 +24,7 @@ brew install wget
 
 # Some cask packages that I use in my workflow.
 #
+brew cask install adobe-reader
 brew cask install alfred
 brew cask install atom
 brew cask install caffeine
@@ -43,6 +44,7 @@ brew cask install itsycal
 brew cask install kdiff3
 brew cask install macdown
 brew cask install macvim
+brew cask install malwarebytes-anti-malware
 brew cask install pgadmin3
 brew cask install skype
 brew cask install slack
