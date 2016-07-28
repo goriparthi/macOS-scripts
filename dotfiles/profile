@@ -1,9 +1,10 @@
 source /Users/pgoriparthi/.oh-my-git/prompt.sh
 
 export EDITOR=/usr/bin/vim
-export JIRA_USER=
+export JIRA_USER=pgoriparthi@i3logix.com
 export JIRA_PASS=
 export ANSIBLE_VAULT_PASSWORD_FILE=
+export HOMEBREW_GITHUB_API_TOKEN=
 
 alias c="clear"
 alias ll="ls -lrt"
@@ -18,9 +19,39 @@ alias .6='cd ../../../../../../'
 alias sp='source ~/.profile'
 alias gp='git push'
 alias gpu='git push -u'
+alias batt='pmset -g batt'
+alias lk='/System/Library/CoreServices/Menu\ Extras/User.menu/Contents/Resources/CGSession -suspend'
+alias music='open https://music.google.com'
+alias wu='VBoxManage startvm "Windows 10"'
+alias wd='VBoxManage controlvm "Windows 10" savestate'
+
+alias wds="ssh pgoriparthi@172.20.9.191"
+alias wdm="mosh pgoriparthi@172.20.9.191"
+
+alias vms="VBoxManage list -l vms | grep -i \"Name:    \|^State:    \" | awk ' {print;} NR % 2 == 0 { print \"\"; }'"
+
+alias et='du -h ~/.Trash/; echo "Cleaning trash..."; rm -rf ~/.Trash/*; echo "Cleaning complete"; du -h ~/.Trash/'
+
 eval "$(thefuck --alias fuck)"
 
 jira(){
     open "https://i3logix.atlassian.net/browse/$1"
     }
 _byobu_sourced=1 . /usr/local/Cellar/byobu/5.108/bin/byobu-launch 2>/dev/null || true
+
+test -e "${HOME}/.iterm2_shell_integration.bash" && source "${HOME}/.iterm2_shell_integration.bash"
+
+
+#Functions
+function gc() {
+   git clone git@bitbucket.org:i3logix/$1.git --recursive
+   }
+
+export -f gc
+
+
+function jira() {
+  open https://i3logix.atlassian.net/browse/$1
+  }
+
+export -f jira
