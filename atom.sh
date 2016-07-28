@@ -4,3 +4,16 @@ apm install file-icons
 apm install minimap
 apm install seti-ui
 apm install seti-syntax
+apm install tree-view-git-status
+apm install git-blame
+apm install merge-conflicts
+apm install highlight-selected
+apm install script
+apm install sublime-style-column-selection
+apm install auto-detect-indentation
+apm install dash
+apm install auto-update-packages
+apm install sort-lines
+apm install tablr
+apm install terminal-plus
+apm install fonts
