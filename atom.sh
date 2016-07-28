@@ -17,3 +17,4 @@ apm install sublime-style-column-selection
 apm install tablr
 apm install terminal-plus
 apm install tree-view-git-status
+apm install filesize
