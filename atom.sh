@@ -1,7 +1,6 @@
 apm install atom-beautify
 apm install auto-detect-indentation
 apm install auto-update-packages
-apm install autohide-tree-view
 apm install dash
 apm install file-icons
 apm install fonts
