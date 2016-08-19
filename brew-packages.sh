@@ -2,12 +2,13 @@
 #
 # Brew packages that I use a lot.
 #
-brew install ansible
+brew install ansible --force
 brew install ansiweather
 brew install archey
 #brew install byobu
 brew install dos2unix
 brew install git
+brew install go
 brew install htop
 brew install mercurial
 brew install mobile-shell 
@@ -50,6 +51,8 @@ brew cask install skype
 brew cask install slack
 brew cask install sourcetree
 brew cask install spectacle
+brew cask install spotify
+brew cask install spotify-notifications
 brew cask install sublime-text
 brew cask install teamviewer
 brew cask install transmission
