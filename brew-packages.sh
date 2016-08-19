@@ -47,6 +47,7 @@ brew cask install macdown
 brew cask install macvim
 brew cask install malwarebytes-anti-malware
 brew cask install pgadmin3
+brew cask install screenhero
 brew cask install skype
 brew cask install slack
 brew cask install sourcetree
